@@ -1,12 +1,12 @@
 # PISA
 
-Payjoin with cross-input signature aggregation: a payjoin whose inputs,
-from two wallets, share one BIP 460 signature. A prototype, on regtest only.
+Payjoin with cross-input signature aggregation (CISA): a payjoin whose inputs,
+from two wallets share one BIP 460 signature. A prototype on regtest only.
 
 | Part | Repository | Branch |
 |------|------------|--------|
-| Demo: two wallets, a payment, and the video | [pisa-demo](https://github.com/bitcoin-pisa/pisa-demo) | `main` |
-| Async payjoin (BIP 77) with full aggregation: protocol profile and prototype | [pisa](https://github.com/bitcoin-pisa/pisa) | `main` |
+| Demo: two wallets, a PISA transfer, and the video | [pisa-demo](https://github.com/bitcoin-pisa/pisa-demo) | `main` |
+| Async Payjoin (BIP 77) with full aggregation: protocol profile and prototype | [pisa](https://github.com/bitcoin-pisa/pisa) | `main` |
 | Bitcoin Core with BIP 460, the code of [bitcoin#36122](https://github.com/bitcoin/bitcoin/pull/36122) | [bitcoin](https://github.com/bitcoin-pisa/bitcoin/tree/bip460) | `bip460` |
 | Payjoin library that carries the CISA PSBT fields | [rust-payjoin](https://github.com/bitcoin-pisa/rust-payjoin/tree/cisa-psbt-carriage) | `cisa-psbt-carriage` |
 | Explorer that shows aggregated signatures, the savings, and who is who in a payjoin | [mempool](https://github.com/bitcoin-pisa/mempool/tree/cisa-witness-v2) | `cisa-witness-v2` |
