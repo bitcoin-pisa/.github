@@ -3,6 +3,8 @@
 Payjoin with cross-input signature aggregation (CISA): a payjoin whose inputs,
 from two wallets share one BIP 460 signature. A prototype on regtest only.
 
+https://github.com/user-attachments/assets/5ee1d013-1b68-4482-844b-a450807f5873
+
 | Part | Repository | Branch |
 |------|------------|--------|
 | Demo: two wallets, a PISA transfer, and the video | [pisa-demo](https://github.com/bitcoin-pisa/pisa-demo) | `main` |
